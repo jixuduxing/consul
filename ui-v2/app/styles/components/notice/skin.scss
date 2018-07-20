@@ -1,5 +1,4 @@
 %notice {
-  border: $decor-border-100;
   border-radius: $radius-small;
 }
 %notice-success,
@@ -27,9 +26,8 @@
   color: $ui-color-action; /* change to info */
 }
 %notice-warning {
-  @extend %with-warning;
-  background-color: $ui-yellow-050;
-  border-color: $ui-color-warning;
+  @extend %box-color-yellow-500, %with-warning;
+  border-bottom-width: 1px;
 }
 %notice-error {
   @extend %with-critical;

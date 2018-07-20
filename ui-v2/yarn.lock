@@ -99,7 +99,9 @@
 
 "@hashicorp/iris@https://github.com/johncowen/iris#master":
   version "1.0.0"
-  resolved "https://github.com/johncowen/iris#10e615381841c1490405a581b9a676703a998750"
+  resolved "https://github.com/johncowen/iris#3bcd16660fe33f31d06767bd978c6b38969a0c57"
+  dependencies:
+    mkdirp "^0.5.1"
 
 "@sinonjs/formatio@^2.0.0":
   version "2.0.0"
